@@ -1,53 +1,85 @@
 # Abderrahim Neji
 
-I'm a 5th-year Software and Data Engineering student at the University of Carthage, Tunisia. My public work focuses mainly on machine learning, RAG/LLM applications, and backend systems.
+**Software & Data Engineering student** at the University of Carthage
 
-## About Me
+I work on machine learning, computer vision, RAG and LLM systems, and backend engineering — from retrieval-backed assistants to sensor-driven applications.
 
-I study Software Engineering and Data Engineering at the Faculty of Sciences of Bizerte. I'm interested in AI/ML, data engineering, RAG/LLM applications, and backend engineering.
+[Portfolio](https://abderrahimneji.github.io/abderrahim-neji-portfolio/) · [LinkedIn](https://www.linkedin.com/in/abderrahim-neji) · [GitHub projects](https://github.com/AbderrahimNeji?tab=repositories)
 
-## Technologies
+---
 
-### Languages
-Python, TypeScript, JavaScript, SQL
+## Featured projects
 
-### AI / Data
-scikit-learn, YOLOv8 (Ultralytics), LangChain, Google Gemini
+<table>
+  <tr>
+    <td valign="top" width="32%">
+      <strong><a href="https://github.com/AbderrahimNeji/Assistant_ZUPdeCO">ZUPdeCO AI Assistant</a></strong><br>
+      <sub>Own repository</sub>
+    </td>
+    <td valign="top">
+      RAG assistant with chat, document ingestion, and evaluation. NestJS API on PostgreSQL (Prisma), LangChain with Gemini, a Next.js UI, and Docker.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <strong><a href="https://github.com/AbderrahimNeji/classification-pytorch">Image classification MLOps pipeline</a></strong><br>
+      <sub>Fork — course project, based on <a href="https://github.com/besmaguesmi/classification-pytorch">besmaguesmi/classification-pytorch</a></sub>
+    </td>
+    <td valign="top">
+      ResNet18 image classification in PyTorch, with DVC for dataset versioning and MLflow for experiment tracking. Coursework on the forked starter, including a local report and recorded runs.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <strong><a href="https://github.com/AbderrahimNeji/OliveGrove_IOT">Smart Olive Grove</a></strong><br>
+      <sub>Own repository</sub>
+    </td>
+    <td valign="top">
+      IoT monitoring for olive groves: Arduino sensors via the Web Serial API, an Express dashboard, optional MongoDB persistence, and a scikit-learn Random Forest model for tree-status predictions.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <strong><a href="https://github.com/AbderrahimNeji/Gestion-Absence-Flutter-App">Student Absence Management</a></strong><br>
+      <sub>Fork and team project — with <a href="https://github.com/AymenJeddou">Aymen Jeddou</a>; original <a href="https://github.com/AymenJeddou/Gestion-Absence-Flutter-App">AymenJeddou/Gestion-Absence-Flutter-App</a></sub>
+    </td>
+    <td valign="top">
+      Attendance app for admins, teachers, and students. Flutter/Dart client and a PHP/MySQL API. This is a fork of a shared team repository, not a solo project.
+    </td>
+  </tr>
+</table>
 
-### Backend
-NestJS, FastAPI, Express, Prisma, REST APIs
+---
 
-### Databases
-PostgreSQL, MongoDB
+## Technical skills
 
-### DevOps / Tools
-Docker, Docker Compose, GitHub Actions, Git
+<table>
+  <tr>
+    <td valign="top" width="22%"><strong>Languages</strong></td>
+    <td>Python, TypeScript, JavaScript, SQL, Dart, PHP</td>
+  </tr>
+  <tr>
+    <td valign="top"><strong>AI / ML</strong></td>
+    <td>scikit-learn, PyTorch, YOLOv8, LangChain, Gemini</td>
+  </tr>
+  <tr>
+    <td valign="top"><strong>Backend</strong></td>
+    <td>NestJS, FastAPI, Express, Prisma</td>
+  </tr>
+  <tr>
+    <td valign="top"><strong>Databases</strong></td>
+    <td>PostgreSQL, MongoDB, MySQL</td>
+  </tr>
+  <tr>
+    <td valign="top"><strong>DevOps</strong></td>
+    <td>Docker, GitHub Actions, DVC, MLflow, Git</td>
+  </tr>
+</table>
 
-## Selected Projects
+---
 
-### [ZUPdeCO AI Assistant](https://github.com/AbderrahimNeji/Assistant_ZUPdeCO)
+## About & contact
 
-RAG assistant with chat, document ingestion, and evaluation. NestJS, PostgreSQL, Prisma, LangChain, Gemini, Next.js, Docker.
+Fifth-year student at the Faculty of Sciences of Bizerte (Tunisia). Repositories here are academic or personal work; some are team projects or forks.
 
-### [digital_campus_platform](https://github.com/AymenJeddou/digital_campus_platform)
-
-Team project for a campus platform with authentication, documents, and RAG. I contributed to the backend, including authentication and course integrations.
-
-### [Road degradation detection](https://github.com/AbderrahimNeji/FinalProjectDevops)
-
-YOLOv8 pipeline for road-surface damage, with GPS association, a FastAPI service, and Docker. Course project with two teammates.
-
-### [Olive grove monitoring](https://github.com/AbderrahimNeji/OliveGrove_IOT)
-
-IoT dashboard and a scikit-learn model for olive-tree status, with an Express API and optional MongoDB.
-
-## Currently Learning
-
-RAG pipelines, LLM applications, and more disciplined MLOps / data engineering around training, evaluation, and deployment.
-
-## Contact
-
-- [Portfolio](https://abderrahimneji.github.io/abderrahim-neji-portfolio/)
-- [LinkedIn](https://www.linkedin.com/in/abderrahim-neji)
-
-Most repositories here are academic or personal projects, and some are team projects.
+[Portfolio](https://abderrahimneji.github.io/abderrahim-neji-portfolio/) · [LinkedIn](https://www.linkedin.com/in/abderrahim-neji) · [GitHub](https://github.com/AbderrahimNeji) · [nejiabderrahim@gmail.com](mailto:nejiabderrahim@gmail.com)
