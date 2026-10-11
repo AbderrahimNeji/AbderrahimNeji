@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" role="img" aria-label="MLOps and DevOps">
+  <rect width="72" height="72" rx="14" fill="#151D35"/>
+  <rect x="1.5" y="1.5" width="69" height="69" rx="13" fill="none" stroke="#42D9F5" stroke-opacity="0.35" stroke-width="1.5"/>
+  
+  <g fill="none" stroke-linecap="round">
+    <circle cx="36" cy="36" r="14" stroke="#42D9F5" stroke-width="1.7"/>
+    <path d="M36 22 V30 M50 36 H42 M36 50 V42 M22 36 H30" stroke="#8B7CFF" stroke-width="1.7"/>
+    <circle cx="36" cy="36" r="4" fill="#EDF4FF"/>
+  </g>
+
+</svg>
