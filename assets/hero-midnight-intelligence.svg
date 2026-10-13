@@ -1,111 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
   <title id="title">Abderrahim Neji — Software and Data Engineering</title>
-  <desc id="desc">Midnight Intelligence banner: name, discipline, and abstract neural connections.</desc>
+  <desc id="desc">Midnight Intelligence banner with name and discipline.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0B1020"/>
-      <stop offset="55%" stop-color="#151D35"/>
+      <stop offset="50%" stop-color="#121A30"/>
       <stop offset="100%" stop-color="#0B1020"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#42D9F5"/>
       <stop offset="100%" stop-color="#8B7CFF"/>
     </linearGradient>
-    <linearGradient id="glowC" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#42D9F5" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#42D9F5" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="glowV" x1="1" y1="1" x2="0" y2="0">
-      <stop offset="0%" stop-color="#8B7CFF" stop-opacity="0.20"/>
-      <stop offset="100%" stop-color="#8B7CFF" stop-opacity="0"/>
-    </linearGradient>
     <radialGradient id="orbC" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#42D9F5" stop-opacity="0.55"/>
+      <stop offset="0%" stop-color="#42D9F5" stop-opacity="0.28"/>
       <stop offset="100%" stop-color="#42D9F5" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="orbV" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#8B7CFF" stop-opacity="0.45"/>
+      <stop offset="0%" stop-color="#8B7CFF" stop-opacity="0.24"/>
       <stop offset="100%" stop-color="#8B7CFF" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
-  <rect width="1200" height="420" fill="url(#bg)"/>
-  <rect width="1200" height="420" fill="url(#glowC)"/>
-  <circle cx="980" cy="120" r="220" fill="url(#orbC)"/>
-  <circle cx="220" cy="360" r="200" fill="url(#orbV)"/>
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <circle cx="1040" cy="70" r="180" fill="url(#orbC)"/>
+  <circle cx="160" cy="260" r="150" fill="url(#orbV)"/>
 
-  <!-- faint embedding grid -->
-  <g stroke="#EDF4FF" stroke-opacity="0.07" stroke-width="1.6" fill="none">
-    <path d="M40 40 H1160 V380 H40 Z"/>
-    <path d="M40 140 H1160"/>
-    <path d="M40 280 H1160"/>
-    <path d="M400 40 V380"/>
-    <path d="M800 40 V380"/>
+  <g stroke="#EDF4FF" stroke-opacity="0.06" stroke-width="1.2" fill="none">
+    <path d="M36 36 H1164 V264 H36 Z"/>
+    <path d="M36 150 H1164"/>
+    <path d="M820 36 V264"/>
   </g>
 
-  <!-- neural field: connections -->
-  <g stroke-width="1.6" fill="none" stroke-linecap="round">
-    <path d="M720 86 L812 132 L906 98 L1004 150 L1088 112" stroke="#42D9F5" stroke-opacity="0.55"/>
-    <path d="M742 188 L828 164 L910 210 L998 176 L1096 222" stroke="#8B7CFF" stroke-opacity="0.50"/>
-    <path d="M708 274 L804 246 L894 292 L992 258 L1082 304" stroke="#42D9F5" stroke-opacity="0.42"/>
-    <path d="M812 132 L828 164 L804 246" stroke="#EDF4FF" stroke-opacity="0.22"/>
-    <path d="M906 98 L910 210 L894 292" stroke="#EDF4FF" stroke-opacity="0.18"/>
-    <path d="M1004 150 L998 176 L992 258" stroke="#EDF4FF" stroke-opacity="0.20"/>
-    <path d="M640 150 L720 86" stroke="#8B7CFF" stroke-opacity="0.28"/>
-    <path d="M628 248 L742 188" stroke="#42D9F5" stroke-opacity="0.24"/>
-    <path d="M650 330 L708 274" stroke="#8B7CFF" stroke-opacity="0.22"/>
-    <path d="M906 98 L828 164" stroke="#42D9F5" stroke-opacity="0.20"/>
-    <path d="M1004 150 L910 210" stroke="#8B7CFF" stroke-opacity="0.20"/>
-    <path d="M1088 112 L998 176 L1082 304" stroke="#42D9F5" stroke-opacity="0.16"/>
+  <g stroke-width="1.5" fill="none" stroke-linecap="round">
+    <path d="M860 78 L930 118 L1010 92 L1088 140" stroke="#42D9F5" stroke-opacity="0.55"/>
+    <path d="M878 168 L948 142 L1024 186 L1102 158" stroke="#8B7CFF" stroke-opacity="0.50"/>
+    <path d="M930 118 L948 142" stroke="#EDF4FF" stroke-opacity="0.22"/>
+    <path d="M1010 92 L1024 186" stroke="#EDF4FF" stroke-opacity="0.16"/>
   </g>
-
-  <!-- nodes -->
   <g>
-    <circle cx="720" cy="86" r="5" fill="#42D9F5"/>
-    <circle cx="812" cy="132" r="7" fill="#EDF4FF"/>
-    <circle cx="906" cy="98" r="5" fill="#8B7CFF"/>
-    <circle cx="1004" cy="150" r="6" fill="#42D9F5"/>
-    <circle cx="1088" cy="112" r="4.5" fill="#EDF4FF"/>
-    <circle cx="742" cy="188" r="5" fill="#8B7CFF"/>
-    <circle cx="828" cy="164" r="8" fill="#42D9F5"/>
-    <circle cx="910" cy="210" r="6" fill="#EDF4FF"/>
-    <circle cx="998" cy="176" r="5" fill="#8B7CFF"/>
-    <circle cx="1096" cy="222" r="4.5" fill="#42D9F5"/>
-    <circle cx="708" cy="274" r="5" fill="#EDF4FF"/>
-    <circle cx="804" cy="246" r="6" fill="#8B7CFF"/>
-    <circle cx="894" cy="292" r="7" fill="#42D9F5"/>
-    <circle cx="992" cy="258" r="5" fill="#EDF4FF"/>
-    <circle cx="1082" cy="304" r="5" fill="#8B7CFF"/>
-    <circle cx="640" cy="150" r="3.5" fill="#42D9F5" fill-opacity="0.8"/>
-    <circle cx="628" cy="248" r="3.5" fill="#8B7CFF" fill-opacity="0.8"/>
-    <circle cx="650" cy="330" r="3.5" fill="#EDF4FF" fill-opacity="0.7"/>
+    <circle cx="860" cy="78" r="4.5" fill="#42D9F5"/>
+    <circle cx="930" cy="118" r="6" fill="#EDF4FF"/>
+    <circle cx="1010" cy="92" r="4.5" fill="#8B7CFF"/>
+    <circle cx="1088" cy="140" r="5" fill="#42D9F5"/>
+    <circle cx="878" cy="168" r="4" fill="#8B7CFF"/>
+    <circle cx="948" cy="142" r="6" fill="#42D9F5"/>
+    <circle cx="1024" cy="186" r="4.5" fill="#EDF4FF"/>
+    <circle cx="1102" cy="158" r="4" fill="#8B7CFF"/>
   </g>
 
-  <!-- vector ticks (embedding motif) -->
-  <g stroke="#42D9F5" stroke-opacity="0.35" stroke-width="2" stroke-linecap="round">
-    <path d="M1040 332 L1040 352"/>
-    <path d="M1052 324 L1052 352"/>
-    <path d="M1064 338 L1064 352"/>
-    <path d="M1076 318 L1076 352"/>
-    <path d="M1088 330 L1088 352"/>
-    <path d="M1100 312 L1100 352"/>
-    <path d="M1112 336 L1112 352"/>
-  </g>
-  <text x="1040" y="374" fill="#EDF4FF" fill-opacity="0.55" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13">embedding space</text>
-
-  <!-- corner brackets -->
-  <g stroke="url(#accent)" stroke-width="2.5" fill="none" stroke-linecap="square">
-    <path d="M28 58 V28 H58"/>
-    <path d="M1172 58 V28 H1142"/>
-    <path d="M28 362 V392 H58"/>
-    <path d="M1172 362 V392 H1142"/>
+  <g stroke="url(#accent)" stroke-width="2.2" fill="none" stroke-linecap="square">
+    <path d="M24 48 V24 H48"/>
+    <path d="M1176 48 V24 H1152"/>
+    <path d="M24 252 V276 H48"/>
+    <path d="M1176 252 V276 H1152"/>
   </g>
 
-  <!-- typography — sized to stay readable when GitHub scales the banner on mobile -->
-  <text x="64" y="126" fill="#42D9F5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="2.2">AI  ·  ENGINEERING  ·  PORTFOLIO</text>
-  <rect x="64" y="144" width="88" height="4" fill="url(#accent)" rx="2"/>
-  <text x="64" y="216" fill="#EDF4FF" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="58" font-weight="700">ABDERRAHIM NEJI</text>
-  <text x="64" y="266" fill="#EDF4FF" fill-opacity="0.90" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="24" font-weight="600" letter-spacing="1.2">SOFTWARE &amp; DATA ENGINEERING</text>
-  <text x="64" y="314" fill="#42D9F5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="0.8">AI SYSTEMS  ·  COMPUTER VISION  ·  RAG / LLM</text>
+  <text x="64" y="118" fill="#42D9F5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="3">MIDNIGHT INTELLIGENCE</text>
+  <rect x="64" y="134" width="72" height="3" fill="url(#accent)" rx="1.5"/>
+  <text x="64" y="192" fill="#EDF4FF" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="46" font-weight="700">ABDERRAHIM NEJI</text>
+  <text x="64" y="232" fill="#EDF4FF" fill-opacity="0.88" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="1.4">SOFTWARE &amp; DATA ENGINEERING</text>
 </svg>
